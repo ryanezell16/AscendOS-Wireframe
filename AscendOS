@@ -1,0 +1,18 @@
+# Navigate to your project directory (if not already there)
+cd /path/to/AscendOS
+
+# Initialize Git
+git init
+
+# Add all files to the repository
+git add .
+
+# Commit the changes with a message
+git commit -m "Initial commit - AscendOS"
+
+# Link your local project to GitHub (Replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/AscendOS.git
+
+# Push the project to GitHub
+git branch -M main
+git push -u origin main
